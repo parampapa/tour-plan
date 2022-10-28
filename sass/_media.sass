@@ -11,6 +11,9 @@
   .card
     width: 230px
     height: 230px
+  .footer
+    &__input
+      flex-basis: 100%
 @media ( max-width: 992px  )
   .container,
   .newsletter-wrapper
@@ -58,6 +61,15 @@
   .card
     width: 340px
     height: 255px
+  .footer
+    &__logo
+      grid-row: 1 / 2
+    &__social
+      &-network
+        grid-row: 1 / 2
+        grid-column: span 4
+    &__categories
+      grid-row: 2 / 3
 @media ( max-width: 768px )
   .container
     max-width: 576px
